@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0167/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0167/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金籙齋啟壇儀
+  date: '2015-08-29 00:12:11.566025'
+  source:
+    repository: kanripo
+    path: KR5b0167
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0167_000-ZTDZ.yaml, hash: 'sha256:4183a39e3158f5a04fdb80e740254c15fc74e67e272fea694c089c8b069e6aa3'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0167_000-ZTDZ.markers.yaml, hash: 'sha256:a4528e82c8a0bc16761434665c9358f53e1b461431c654588929010a664f3317'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0167_SJB_000-090067a
+    span:
+    - body
+    - 0
+    - 3073
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:f92340b8313146db259fc0c606bfff3ede995d2172d25f4257e0cb08378166b1
